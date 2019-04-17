@@ -24,6 +24,7 @@ namespace Write
 
 		private void Window_Loaded(object sender, RoutedEventArgs e)
 		{
+			SaveButton.IsEnabled = false;
 			foreach (FontFamily fontFamily in Fonts.SystemFontFamilies)
 			{
 				FontFamilyComboBox.Items.Add(fontFamily.Source);

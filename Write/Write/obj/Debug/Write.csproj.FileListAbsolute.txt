@@ -26,11 +26,8 @@ E:\Projects\Write\Write\Write\bin\Debug\Dragablz.xml
 E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\Write.exe.config
 E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\Write.exe
 E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\Write.pdb
-E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\Dragablz.dll
 E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\MaterialDesignColors.dll
 E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\MaterialDesignThemes.Wpf.dll
-E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\Dragablz.pdb
-E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\Dragablz.xml
 E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\MaterialDesignColors.pdb
 E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\MaterialDesignThemes.Wpf.pdb
 E:\Projects\Write\WriteGithub\Write\Write\Write\bin\Debug\MaterialDesignThemes.Wpf.xml

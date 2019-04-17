@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
         xmlns:local="clr-namespace:Write"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
@@ -113,38 +112,28 @@
                 </Button>
                 <Separator />
                 <ListBox SelectedIndex="0">
-                    <ListBox.ToolTip>
-                        <StackPanel>
-                            <TextBlock Text="Text alignment" />
-                        </StackPanel>
-                    </ListBox.ToolTip>
-                    <ListBoxItem x:Name="LeftBnt" Background="Black" Selected="LeftBnt_Selected">
+                    <ListBoxItem x:Name="LeftBnt" Background="Black" Selected="LeftBnt_Selected" ToolTip="Align Left">
                         <materialDesign:PackIcon Kind="FormatAlignLeft" Foreground="White" />
                     </ListBoxItem>
-                    <ListBoxItem  x:Name="CenterBnt" Background="Black" Selected="CenterBnt_Selected">
+                    <ListBoxItem  x:Name="CenterBnt" Background="Black" Selected="CenterBnt_Selected" ToolTip="Align Center">
                         <materialDesign:PackIcon Kind="FormatAlignCenter" Foreground="White" />
                     </ListBoxItem>
-                    <ListBoxItem x:Name="RightBnt" Background="Black" Selected="RightBnt_Selected">
+                    <ListBoxItem x:Name="RightBnt" Background="Black" Selected="RightBnt_Selected" ToolTip="Align Right">
                         <materialDesign:PackIcon Kind="FormatAlignRight" Foreground="White" />
                     </ListBoxItem>
-                    <ListBoxItem x:Name="JustifyBnt" Background="Black" Selected="JustifyBnt_Selected">
+                    <ListBoxItem x:Name="JustifyBnt" Background="Black" Selected="JustifyBnt_Selected" ToolTip="Justify">
                         <materialDesign:PackIcon Kind="FormatAlignJustify" Foreground="White" />
                     </ListBoxItem>
                 </ListBox>
                 <Separator />
                 <ListBox SelectionMode="Extended" Background="Black">
-                    <ListBox.ToolTip>
-                        <StackPanel>
-                            <TextBlock Text="Font properties" />
-                        </StackPanel>
-                    </ListBox.ToolTip>
-                    <ListBoxItem x:Name="BoldBnt" Background="#FF040404" Selected="BoldBnt_Selected" Unselected="BoldBnt_Unselected">
+                    <ListBoxItem x:Name="BoldBnt" Background="#FF040404" Selected="BoldBnt_Selected" Unselected="BoldBnt_Unselected" ToolTip="Bold">
                         <materialDesign:PackIcon Kind="FormatBold" Foreground="White" />
                     </ListBoxItem>
-                    <ListBoxItem x:Name="ItalicBnt" Background="Black" Selected="ItalicBnt_Selected" Unselected="ItalicBnt_Unselected">
+                    <ListBoxItem x:Name="ItalicBnt" Background="Black" Selected="ItalicBnt_Selected" Unselected="ItalicBnt_Unselected" ToolTip="Italic">
                         <materialDesign:PackIcon Kind="FormatItalic" Foreground="White" />
                     </ListBoxItem>
-                    <ListBoxItem x:Name="UnderlineBnt" Background="Black" Selected="UnderlineBnt_Selected" Unselected="UnderlineBnt_Unselected">
+                    <ListBoxItem x:Name="UnderlineBnt" Background="Black" Selected="UnderlineBnt_Selected" Unselected="UnderlineBnt_Unselected" ToolTip="Underline">
                         <materialDesign:PackIcon Kind="FormatUnderline" Foreground="White" />
                     </ListBoxItem>
                 </ListBox>
@@ -184,6 +173,6 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Label x:Name="SaveIndicator" Content="*" HorizontalAlignment="Left" Margin="133,12,0,0" VerticalAlignment="Top" Height="19" Visibility="Collapsed"/>
+        <Label x:Name="SaveIndicator" Content="*" HorizontalAlignment="Left" Margin="133,12,0,0" VerticalAlignment="Top" Height="19" Visibility="Collapsed"/>        
     </Grid>
 </Window>
